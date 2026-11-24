@@ -1,19 +1,18 @@
-# Paper Insight Skill · 单页论文洞察 PPT
+# Paper Insight Skill · 单页论文与多页技术洞察 PPT
 
-把一篇论文转成**一页中文技术洞察 PPT**的 skill：红黑灰、三栏（问题 / 方案 / 收益）、
-结论式标题 + 洞察/启示 + 关键技术 + 来源，证据写进备注。适合组会速览、会议跟踪、技术规划评审。
+把单篇论文或整套会议专题转成**高密度红黑灰中文技术洞察 PPT**的 skill：支持单页论文模板（三栏：问题 / 方案 / 收益 + 洞察启示 + 关键技术 + 备注证据）与完整多页技术洞察报告（8 类 16:9 标准页型、统一红灰配色与字号体系、平实无修辞工程文案、300 DPI 原文裁图规范）。适合组会速览、顶会跟踪、技术规划与务虚会汇报。
 
-模板是作者按参考样例手工复刻的版式，不是任何厂商的官方规范；公开版已移除第三方品牌标识与
-密级字样，四个示例配图也换成了中性占位图。
+模板与版式均为作者手工整理的红黑灰技术洞察样式，不是任何厂商的官方规范；公开版已移除第三方品牌标识与密级字样，示例配图也换成了中性占位图。
 
 ## 内容
 
 | 路径 | 说明 |
 |---|---|
-| `SKILL.md` | skill 主文件：内容组织方式、文案约束、视觉规则、编辑锚点、DSH/Codex 用法 |
+| `SKILL.md` | skill 主文件：单页与多页洞察组织方式、工程文案约束、视觉规则、编辑锚点与脚本用法 |
+| `references/deck-style-spec.md` | 多页技术洞察 PPT 完整风格规范（配色、字体字号、8 类 16:9 页型坐标、文案与配图自检清单） |
 | `assets/reference.pptx` | 单页参考模板（只读；复制后原位编辑），已中性化品牌标识 |
-| `assets/preview.png`、`assets/reference-render.pdf` | 模板渲染预览 |
-| `references/style-spec.json` | 实测几何、颜色、字号、对象 ID、段落属性与母版映射 |
+| `assets/preview.png`、`assets/reference-render.pdf` | 单页模板渲染预览 |
+| `references/style-spec.json` | 单页模板实测几何、颜色、字号、对象 ID、段落属性与母版映射 |
 | `references/paper-to-insight.md` | 原文事实与洞察/启示的边界说明 |
 | `references/dsh-validation.md` | DSH 适配与像素级验证记录 |
 | `scripts/build-report.py` | DSH 环境生成器：复制模板、替换 8 处文本槽与 4 张配图、写备注 |
