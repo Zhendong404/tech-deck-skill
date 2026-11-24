@@ -1,6 +1,6 @@
-# Paper Insight Skill · 单页论文与多页技术洞察 PPT
+# Paper Insight Skill · 结构化技术洞察 PPT
 
-把单篇论文或整套会议专题转成**高密度红黑灰中文技术洞察 PPT**的 skill：支持单页论文模板（三栏：问题 / 方案 / 收益 + 洞察启示 + 关键技术 + 备注证据）与完整多页技术洞察报告（8 类 16:9 标准页型、统一红灰配色与字号体系、平实无修辞工程文案、300 DPI 原文裁图规范）。适合组会速览、顶会跟踪、技术规划与务虚会汇报。
+把单篇论文或整套会议专题转成**语言凝练、图文并茂、信息密度高**的红黑灰中文技术洞察 PPT。采用「**Deck 宏观叙事规划 → Slide 页内逻辑与版式路由 → Component 原子组件装配**」三层分层架构，同时保留单页论文模板与 Python 自动化脚本，适合组会速览、顶会跟踪、架构评审与务虚会汇报。
 
 模板与版式均为作者手工整理的红黑灰技术洞察样式，不是任何厂商的官方规范；公开版已移除第三方品牌标识与密级字样，示例配图也换成了中性占位图。
 
@@ -8,8 +8,11 @@
 
 | 路径 | 说明 |
 |---|---|
-| `SKILL.md` | skill 主文件：单页与多页洞察组织方式、工程文案约束、视觉规则、编辑锚点与脚本用法 |
-| `references/deck-style-spec.md` | 多页技术洞察 PPT 完整风格规范（配色、字体字号、8 类 16:9 页型坐标、文案与配图自检清单） |
+| `SKILL.md` | skill 总控入口：三大核心原则、三层工作流路由与单页脚本快速流程 |
+| `references/01-deck-planning.md` | Layer 1：4 种宏观叙事组织思路与页间逻辑承接规范 |
+| `references/02-slide-layouts.md` | Layer 2：页内逻辑 → 8 类 16:9 标准页型路由表、坐标网格与容量预算 |
+| `references/03-component-library.md` | Layer 3：红灰 Design Tokens 与语义组件库选型规范 |
+| `references/04-copy-and-qc.md` | 横切规范：语言凝练约束、术语表、300 DPI 裁图与视觉自检清单 |
 | `assets/reference.pptx` | 单页参考模板（只读；复制后原位编辑），已中性化品牌标识 |
 | `assets/preview.png`、`assets/reference-render.pdf` | 单页模板渲染预览 |
 | `references/style-spec.json` | 单页模板实测几何、颜色、字号、对象 ID、段落属性与母版映射 |
